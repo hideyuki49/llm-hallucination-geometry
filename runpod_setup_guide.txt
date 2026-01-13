@@ -1,9 +1,0 @@
-df -h
-ls ~/.cache/huggingface/hub | grep models-- | sed 's/models--//'
-du -h -d 2 /root 2>/dev/null | sort -h | tail -n 30
-du -h -d 2 / 2>/dev/null | sort -h | tail -n 30
-rm -rf ~/.cache/huggingface
-rm -rf /root/.cache/huggingface
-rm -rf ~/.cache/torch
-rm -rf ~/.cache/transformers
-rm -rf ~/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct
